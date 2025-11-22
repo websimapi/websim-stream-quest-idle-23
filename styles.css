@@ -104,7 +104,7 @@ header {
     padding: 4px 8px;
     color: var(--text-main);
     font-size: 0.85rem;
-    width: 70px;
+    width: 140px;
 }
 
 .host-top-bar #tmi-status {
