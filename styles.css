@@ -107,6 +107,15 @@ header {
     width: 70px;
 }
 
+.host-top-bar #tmi-status {
+    font-size: 1.2rem; /* Make the icon slightly larger */
+    line-height: 1;
+    color: var(--text-dim); /* Default color, although the unicode icons are colored */
+    display: inline-block;
+    width: 1.2rem; /* Reserve space */
+    text-align: center;
+}
+
 .host-top-bar button {
     background: var(--accent);
     border: none;
