@@ -463,6 +463,7 @@ main {
     flex-grow: 1;
     position: relative;
     padding: 30px;
+    padding-bottom: 160px; /* extra space so content doesn't hide behind fixed console */
     overflow-y: auto;
 }
 
@@ -857,6 +858,12 @@ main {
     flex-direction: column;
     flex: 0 0 130px;       /* fix console height in the flex column */
     overflow: visible;      /* allow dropdown to escape console bounds */
+
+    /* New: keep console pinned to bottom of the central content column */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .host-console-header {
