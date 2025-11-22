@@ -1,3 +1,10 @@
+@import 'src/styles/base.css';
+@import 'src/styles/components.css';
+@import 'src/styles/header.css';
+@import 'src/styles/sidebar.css';
+@import 'src/styles/inventory.css';
+@import 'src/styles/host.css';
+
 :root {
     --bg-dark: #121212;
     --bg-panel: #1e1e24;
